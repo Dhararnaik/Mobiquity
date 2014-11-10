@@ -1,0 +1,501 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6954A3151A11586D000D7F7B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6954A3141A11586D000D7F7B /* Foundation.framework */; };
+		6954A3171A11586D000D7F7B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6954A3161A11586D000D7F7B /* CoreGraphics.framework */; };
+		6954A3191A11586D000D7F7B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6954A3181A11586D000D7F7B /* UIKit.framework */; };
+		6954A31B1A11586D000D7F7B /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6954A31A1A11586D000D7F7B /* CoreData.framework */; };
+		6954A3211A11586D000D7F7B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6954A31F1A11586D000D7F7B /* InfoPlist.strings */; };
+		6954A3231A11586D000D7F7B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6954A3221A11586D000D7F7B /* main.m */; };
+		6954A3271A11586D000D7F7B /* testAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6954A3261A11586D000D7F7B /* testAppDelegate.m */; };
+		6954A32A1A11586D000D7F7B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6954A3281A11586D000D7F7B /* Main.storyboard */; };
+		6954A32D1A11586D000D7F7B /* MobiquityPhotoGallery.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6954A32B1A11586D000D7F7B /* MobiquityPhotoGallery.xcdatamodeld */; };
+		6954A3301A11586D000D7F7B /* testMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6954A32F1A11586D000D7F7B /* testMasterViewController.m */; };
+		6954A3331A11586D000D7F7B /* testDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6954A3321A11586D000D7F7B /* testDetailViewController.m */; };
+		6954A3351A11586D000D7F7B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6954A3341A11586D000D7F7B /* Images.xcassets */; };
+		6954A33C1A11586D000D7F7B /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6954A33B1A11586D000D7F7B /* XCTest.framework */; };
+		6954A33D1A11586D000D7F7B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6954A3141A11586D000D7F7B /* Foundation.framework */; };
+		6954A33E1A11586D000D7F7B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6954A3181A11586D000D7F7B /* UIKit.framework */; };
+		6954A33F1A11586D000D7F7B /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6954A31A1A11586D000D7F7B /* CoreData.framework */; };
+		6954A3471A11586D000D7F7B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6954A3451A11586D000D7F7B /* InfoPlist.strings */; };
+		6954A3491A11586D000D7F7B /* MobiquityPhotoGalleryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6954A3481A11586D000D7F7B /* MobiquityPhotoGalleryTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6954A3401A11586D000D7F7B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6954A3091A11586D000D7F7B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6954A3101A11586D000D7F7B;
+			remoteInfo = MobiquityPhotoGallery;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6954A3111A11586D000D7F7B /* MobiquityPhotoGallery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MobiquityPhotoGallery.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6954A3141A11586D000D7F7B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6954A3161A11586D000D7F7B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6954A3181A11586D000D7F7B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6954A31A1A11586D000D7F7B /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		6954A31E1A11586D000D7F7B /* MobiquityPhotoGallery-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MobiquityPhotoGallery-Info.plist"; sourceTree = "<group>"; };
+		6954A3201A11586D000D7F7B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6954A3221A11586D000D7F7B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6954A3241A11586D000D7F7B /* MobiquityPhotoGallery-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MobiquityPhotoGallery-Prefix.pch"; sourceTree = "<group>"; };
+		6954A3251A11586D000D7F7B /* testAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = testAppDelegate.h; sourceTree = "<group>"; };
+		6954A3261A11586D000D7F7B /* testAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testAppDelegate.m; sourceTree = "<group>"; };
+		6954A3291A11586D000D7F7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6954A32C1A11586D000D7F7B /* MobiquityPhotoGallery.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MobiquityPhotoGallery.xcdatamodel; sourceTree = "<group>"; };
+		6954A32E1A11586D000D7F7B /* testMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = testMasterViewController.h; sourceTree = "<group>"; };
+		6954A32F1A11586D000D7F7B /* testMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testMasterViewController.m; sourceTree = "<group>"; };
+		6954A3311A11586D000D7F7B /* testDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = testDetailViewController.h; sourceTree = "<group>"; };
+		6954A3321A11586D000D7F7B /* testDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testDetailViewController.m; sourceTree = "<group>"; };
+		6954A3341A11586D000D7F7B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6954A33A1A11586D000D7F7B /* MobiquityPhotoGalleryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MobiquityPhotoGalleryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6954A33B1A11586D000D7F7B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		6954A3441A11586D000D7F7B /* MobiquityPhotoGalleryTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MobiquityPhotoGalleryTests-Info.plist"; sourceTree = "<group>"; };
+		6954A3461A11586D000D7F7B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6954A3481A11586D000D7F7B /* MobiquityPhotoGalleryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MobiquityPhotoGalleryTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6954A30E1A11586D000D7F7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6954A3171A11586D000D7F7B /* CoreGraphics.framework in Frameworks */,
+				6954A31B1A11586D000D7F7B /* CoreData.framework in Frameworks */,
+				6954A3191A11586D000D7F7B /* UIKit.framework in Frameworks */,
+				6954A3151A11586D000D7F7B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6954A3371A11586D000D7F7B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6954A33C1A11586D000D7F7B /* XCTest.framework in Frameworks */,
+				6954A33F1A11586D000D7F7B /* CoreData.framework in Frameworks */,
+				6954A33E1A11586D000D7F7B /* UIKit.framework in Frameworks */,
+				6954A33D1A11586D000D7F7B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6954A3081A11586D000D7F7B = {
+			isa = PBXGroup;
+			children = (
+				6954A31C1A11586D000D7F7B /* MobiquityPhotoGallery */,
+				6954A3421A11586D000D7F7B /* MobiquityPhotoGalleryTests */,
+				6954A3131A11586D000D7F7B /* Frameworks */,
+				6954A3121A11586D000D7F7B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6954A3121A11586D000D7F7B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6954A3111A11586D000D7F7B /* MobiquityPhotoGallery.app */,
+				6954A33A1A11586D000D7F7B /* MobiquityPhotoGalleryTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6954A3131A11586D000D7F7B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6954A3141A11586D000D7F7B /* Foundation.framework */,
+				6954A3161A11586D000D7F7B /* CoreGraphics.framework */,
+				6954A3181A11586D000D7F7B /* UIKit.framework */,
+				6954A31A1A11586D000D7F7B /* CoreData.framework */,
+				6954A33B1A11586D000D7F7B /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6954A31C1A11586D000D7F7B /* MobiquityPhotoGallery */ = {
+			isa = PBXGroup;
+			children = (
+				6954A3251A11586D000D7F7B /* testAppDelegate.h */,
+				6954A3261A11586D000D7F7B /* testAppDelegate.m */,
+				6954A3281A11586D000D7F7B /* Main.storyboard */,
+				6954A32E1A11586D000D7F7B /* testMasterViewController.h */,
+				6954A32F1A11586D000D7F7B /* testMasterViewController.m */,
+				6954A3311A11586D000D7F7B /* testDetailViewController.h */,
+				6954A3321A11586D000D7F7B /* testDetailViewController.m */,
+				6954A3341A11586D000D7F7B /* Images.xcassets */,
+				6954A32B1A11586D000D7F7B /* MobiquityPhotoGallery.xcdatamodeld */,
+				6954A31D1A11586D000D7F7B /* Supporting Files */,
+			);
+			path = MobiquityPhotoGallery;
+			sourceTree = "<group>";
+		};
+		6954A31D1A11586D000D7F7B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6954A31E1A11586D000D7F7B /* MobiquityPhotoGallery-Info.plist */,
+				6954A31F1A11586D000D7F7B /* InfoPlist.strings */,
+				6954A3221A11586D000D7F7B /* main.m */,
+				6954A3241A11586D000D7F7B /* MobiquityPhotoGallery-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6954A3421A11586D000D7F7B /* MobiquityPhotoGalleryTests */ = {
+			isa = PBXGroup;
+			children = (
+				6954A3481A11586D000D7F7B /* MobiquityPhotoGalleryTests.m */,
+				6954A3431A11586D000D7F7B /* Supporting Files */,
+			);
+			path = MobiquityPhotoGalleryTests;
+			sourceTree = "<group>";
+		};
+		6954A3431A11586D000D7F7B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6954A3441A11586D000D7F7B /* MobiquityPhotoGalleryTests-Info.plist */,
+				6954A3451A11586D000D7F7B /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6954A3101A11586D000D7F7B /* MobiquityPhotoGallery */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6954A34C1A11586D000D7F7B /* Build configuration list for PBXNativeTarget "MobiquityPhotoGallery" */;
+			buildPhases = (
+				6954A30D1A11586D000D7F7B /* Sources */,
+				6954A30E1A11586D000D7F7B /* Frameworks */,
+				6954A30F1A11586D000D7F7B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MobiquityPhotoGallery;
+			productName = MobiquityPhotoGallery;
+			productReference = 6954A3111A11586D000D7F7B /* MobiquityPhotoGallery.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6954A3391A11586D000D7F7B /* MobiquityPhotoGalleryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6954A34F1A11586D000D7F7B /* Build configuration list for PBXNativeTarget "MobiquityPhotoGalleryTests" */;
+			buildPhases = (
+				6954A3361A11586D000D7F7B /* Sources */,
+				6954A3371A11586D000D7F7B /* Frameworks */,
+				6954A3381A11586D000D7F7B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6954A3411A11586D000D7F7B /* PBXTargetDependency */,
+			);
+			name = MobiquityPhotoGalleryTests;
+			productName = MobiquityPhotoGalleryTests;
+			productReference = 6954A33A1A11586D000D7F7B /* MobiquityPhotoGalleryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6954A3091A11586D000D7F7B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = test;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Mobiquity;
+				TargetAttributes = {
+					6954A3391A11586D000D7F7B = {
+						TestTargetID = 6954A3101A11586D000D7F7B;
+					};
+				};
+			};
+			buildConfigurationList = 6954A30C1A11586D000D7F7B /* Build configuration list for PBXProject "MobiquityPhotoGallery" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6954A3081A11586D000D7F7B;
+			productRefGroup = 6954A3121A11586D000D7F7B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6954A3101A11586D000D7F7B /* MobiquityPhotoGallery */,
+				6954A3391A11586D000D7F7B /* MobiquityPhotoGalleryTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6954A30F1A11586D000D7F7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6954A3351A11586D000D7F7B /* Images.xcassets in Resources */,
+				6954A3211A11586D000D7F7B /* InfoPlist.strings in Resources */,
+				6954A32A1A11586D000D7F7B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6954A3381A11586D000D7F7B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6954A3471A11586D000D7F7B /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6954A30D1A11586D000D7F7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6954A3301A11586D000D7F7B /* testMasterViewController.m in Sources */,
+				6954A3331A11586D000D7F7B /* testDetailViewController.m in Sources */,
+				6954A32D1A11586D000D7F7B /* MobiquityPhotoGallery.xcdatamodeld in Sources */,
+				6954A3271A11586D000D7F7B /* testAppDelegate.m in Sources */,
+				6954A3231A11586D000D7F7B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6954A3361A11586D000D7F7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6954A3491A11586D000D7F7B /* MobiquityPhotoGalleryTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6954A3411A11586D000D7F7B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6954A3101A11586D000D7F7B /* MobiquityPhotoGallery */;
+			targetProxy = 6954A3401A11586D000D7F7B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6954A31F1A11586D000D7F7B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6954A3201A11586D000D7F7B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6954A3281A11586D000D7F7B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6954A3291A11586D000D7F7B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6954A3451A11586D000D7F7B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6954A3461A11586D000D7F7B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6954A34A1A11586D000D7F7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6954A34B1A11586D000D7F7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6954A34D1A11586D000D7F7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MobiquityPhotoGallery/MobiquityPhotoGallery-Prefix.pch";
+				INFOPLIST_FILE = "MobiquityPhotoGallery/MobiquityPhotoGallery-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6954A34E1A11586D000D7F7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MobiquityPhotoGallery/MobiquityPhotoGallery-Prefix.pch";
+				INFOPLIST_FILE = "MobiquityPhotoGallery/MobiquityPhotoGallery-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		6954A3501A11586D000D7F7B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MobiquityPhotoGallery.app/MobiquityPhotoGallery";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MobiquityPhotoGallery/MobiquityPhotoGallery-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MobiquityPhotoGalleryTests/MobiquityPhotoGalleryTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		6954A3511A11586D000D7F7B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MobiquityPhotoGallery.app/MobiquityPhotoGallery";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MobiquityPhotoGallery/MobiquityPhotoGallery-Prefix.pch";
+				INFOPLIST_FILE = "MobiquityPhotoGalleryTests/MobiquityPhotoGalleryTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6954A30C1A11586D000D7F7B /* Build configuration list for PBXProject "MobiquityPhotoGallery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6954A34A1A11586D000D7F7B /* Debug */,
+				6954A34B1A11586D000D7F7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6954A34C1A11586D000D7F7B /* Build configuration list for PBXNativeTarget "MobiquityPhotoGallery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6954A34D1A11586D000D7F7B /* Debug */,
+				6954A34E1A11586D000D7F7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6954A34F1A11586D000D7F7B /* Build configuration list for PBXNativeTarget "MobiquityPhotoGalleryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6954A3501A11586D000D7F7B /* Debug */,
+				6954A3511A11586D000D7F7B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6954A32B1A11586D000D7F7B /* MobiquityPhotoGallery.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6954A32C1A11586D000D7F7B /* MobiquityPhotoGallery.xcdatamodel */,
+			);
+			currentVersion = 6954A32C1A11586D000D7F7B /* MobiquityPhotoGallery.xcdatamodel */;
+			path = MobiquityPhotoGallery.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 6954A3091A11586D000D7F7B /* Project object */;
+}
