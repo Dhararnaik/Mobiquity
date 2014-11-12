@@ -2,7 +2,7 @@
 //  testDetailViewController.m
 //  MobiquityPhotoGallery
 //
-//  Created by Kikani, Vibhu on 11/10/14.
+//  Created by Naik, Dhara on 11/10/14.
 //  Copyright (c) 2014 Mobiquity. All rights reserved.
 //
 
@@ -30,9 +30,7 @@
 {
     // Update the user interface for the detail item.
 
-    if (self.detailItem) {
-        self.detailDescriptionLabel.text = [[self.detailItem valueForKey:@"timeStamp"] description];
-    }
+    self.imgDetailImage.image = self.imgFullImage;
 }
 
 - (void)viewDidLoad

@@ -14,7 +14,6 @@
 		6954A3211A11586D000D7F7B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6954A31F1A11586D000D7F7B /* InfoPlist.strings */; };
 		6954A3231A11586D000D7F7B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6954A3221A11586D000D7F7B /* main.m */; };
 		6954A3271A11586D000D7F7B /* testAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6954A3261A11586D000D7F7B /* testAppDelegate.m */; };
-		6954A32A1A11586D000D7F7B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6954A3281A11586D000D7F7B /* Main.storyboard */; };
 		6954A32D1A11586D000D7F7B /* MobiquityPhotoGallery.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6954A32B1A11586D000D7F7B /* MobiquityPhotoGallery.xcdatamodeld */; };
 		6954A3301A11586D000D7F7B /* testMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6954A32F1A11586D000D7F7B /* testMasterViewController.m */; };
 		6954A3331A11586D000D7F7B /* testDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6954A3321A11586D000D7F7B /* testDetailViewController.m */; };
@@ -25,6 +24,25 @@
 		6954A33F1A11586D000D7F7B /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6954A31A1A11586D000D7F7B /* CoreData.framework */; };
 		6954A3471A11586D000D7F7B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6954A3451A11586D000D7F7B /* InfoPlist.strings */; };
 		6954A3491A11586D000D7F7B /* MobiquityPhotoGalleryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6954A3481A11586D000D7F7B /* MobiquityPhotoGalleryTests.m */; };
+		6954A4151A1158CC000D7F7B /* DropboxSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6954A4141A1158CC000D7F7B /* DropboxSDK.framework */; };
+		6954A4171A1158FC000D7F7B /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6954A4161A1158FC000D7F7B /* Security.framework */; };
+		6954A4191A115903000D7F7B /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6954A4181A115903000D7F7B /* QuartzCore.framework */; };
+		6954A41C1A115B35000D7F7B /* testLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6954A41B1A115B35000D7F7B /* testLoginViewController.m */; };
+		6954A41F1A116A90000D7F7B /* testCustomPhotoListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6954A41E1A116A90000D7F7B /* testCustomPhotoListCell.m */; };
+		6954A4211A1177AA000D7F7B /* IMG_2410.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 6954A4201A1177AA000D7F7B /* IMG_2410.JPG */; };
+		6954A42D1A11E1EE000D7F7B /* UIImage+Alpha.m in Sources */ = {isa = PBXBuildFile; fileRef = 6954A4261A11E1EE000D7F7B /* UIImage+Alpha.m */; };
+		6954A42E1A11E1EE000D7F7B /* UIImage+Resize.m in Sources */ = {isa = PBXBuildFile; fileRef = 6954A4281A11E1EE000D7F7B /* UIImage+Resize.m */; };
+		6954A42F1A11E1EE000D7F7B /* UIImage+RoundedCorner.m in Sources */ = {isa = PBXBuildFile; fileRef = 6954A42A1A11E1EE000D7F7B /* UIImage+RoundedCorner.m */; };
+		6954A4301A11E1EE000D7F7B /* UIAlertView+error.m in Sources */ = {isa = PBXBuildFile; fileRef = 6954A42C1A11E1EE000D7F7B /* UIAlertView+error.m */; };
+		6954A4361A1265BE000D7F7B /* Background-Pics-50.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6954A4351A1265BE000D7F7B /* Background-Pics-50.jpg */; };
+		6954A4381A12665F000D7F7B /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 6954A4371A12665F000D7F7B /* background.jpg */; };
+		6954A43B1A127C19000D7F7B /* PhotoScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 6954A43A1A127C19000D7F7B /* PhotoScreen.m */; };
+		6954A4EB1A12BCBE000D7F7B /* testNotesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6954A4EA1A12BCBE000D7F7B /* testNotesViewController.m */; };
+		6954A4EF1A12CC14000D7F7B /* testHighlightTextStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = 6954A4EE1A12CC14000D7F7B /* testHighlightTextStorage.m */; };
+		6954A4F21A12CE1C000D7F7B /* Note.m in Sources */ = {isa = PBXBuildFile; fileRef = 6954A4F11A12CE1C000D7F7B /* Note.m */; };
+		6954A50D1A132610000D7F7B /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6954A50C1A132610000D7F7B /* AssetsLibrary.framework */; };
+		6954A50F1A1339BE000D7F7B /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6954A50E1A1339BE000D7F7B /* CoreLocation.framework */; };
+		6954A5111A1346DE000D7F7B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6954A5101A1346DE000D7F7B /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,7 +67,6 @@
 		6954A3241A11586D000D7F7B /* MobiquityPhotoGallery-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MobiquityPhotoGallery-Prefix.pch"; sourceTree = "<group>"; };
 		6954A3251A11586D000D7F7B /* testAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = testAppDelegate.h; sourceTree = "<group>"; };
 		6954A3261A11586D000D7F7B /* testAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testAppDelegate.m; sourceTree = "<group>"; };
-		6954A3291A11586D000D7F7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6954A32C1A11586D000D7F7B /* MobiquityPhotoGallery.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MobiquityPhotoGallery.xcdatamodel; sourceTree = "<group>"; };
 		6954A32E1A11586D000D7F7B /* testMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = testMasterViewController.h; sourceTree = "<group>"; };
 		6954A32F1A11586D000D7F7B /* testMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testMasterViewController.m; sourceTree = "<group>"; };
@@ -61,6 +78,35 @@
 		6954A3441A11586D000D7F7B /* MobiquityPhotoGalleryTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MobiquityPhotoGalleryTests-Info.plist"; sourceTree = "<group>"; };
 		6954A3461A11586D000D7F7B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6954A3481A11586D000D7F7B /* MobiquityPhotoGalleryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MobiquityPhotoGalleryTests.m; sourceTree = "<group>"; };
+		6954A4141A1158CC000D7F7B /* DropboxSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DropboxSDK.framework; sourceTree = "<group>"; };
+		6954A4161A1158FC000D7F7B /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		6954A4181A115903000D7F7B /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		6954A41A1A115B35000D7F7B /* testLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = testLoginViewController.h; sourceTree = "<group>"; };
+		6954A41B1A115B35000D7F7B /* testLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = testLoginViewController.m; sourceTree = "<group>"; };
+		6954A41D1A116A90000D7F7B /* testCustomPhotoListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = testCustomPhotoListCell.h; sourceTree = "<group>"; };
+		6954A41E1A116A90000D7F7B /* testCustomPhotoListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = testCustomPhotoListCell.m; sourceTree = "<group>"; };
+		6954A4201A1177AA000D7F7B /* IMG_2410.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = IMG_2410.JPG; path = MobiquityPhotoGallery/IMG_2410.JPG; sourceTree = "<group>"; };
+		6954A4251A11E1EE000D7F7B /* UIImage+Alpha.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+Alpha.h"; path = "MobiquityPhotoGallery/UIImage+Alpha.h"; sourceTree = "<group>"; };
+		6954A4261A11E1EE000D7F7B /* UIImage+Alpha.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Alpha.m"; path = "MobiquityPhotoGallery/UIImage+Alpha.m"; sourceTree = "<group>"; };
+		6954A4271A11E1EE000D7F7B /* UIImage+Resize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+Resize.h"; path = "MobiquityPhotoGallery/UIImage+Resize.h"; sourceTree = "<group>"; };
+		6954A4281A11E1EE000D7F7B /* UIImage+Resize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Resize.m"; path = "MobiquityPhotoGallery/UIImage+Resize.m"; sourceTree = "<group>"; };
+		6954A4291A11E1EE000D7F7B /* UIImage+RoundedCorner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIImage+RoundedCorner.h"; path = "MobiquityPhotoGallery/UIImage+RoundedCorner.h"; sourceTree = "<group>"; };
+		6954A42A1A11E1EE000D7F7B /* UIImage+RoundedCorner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIImage+RoundedCorner.m"; path = "MobiquityPhotoGallery/UIImage+RoundedCorner.m"; sourceTree = "<group>"; };
+		6954A42B1A11E1EE000D7F7B /* UIAlertView+error.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIAlertView+error.h"; path = "MobiquityPhotoGallery/UIAlertView+error.h"; sourceTree = "<group>"; };
+		6954A42C1A11E1EE000D7F7B /* UIAlertView+error.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIAlertView+error.m"; path = "MobiquityPhotoGallery/UIAlertView+error.m"; sourceTree = "<group>"; };
+		6954A4351A1265BE000D7F7B /* Background-Pics-50.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Background-Pics-50.jpg"; path = "MobiquityPhotoGallery/Background-Pics-50.jpg"; sourceTree = "<group>"; };
+		6954A4371A12665F000D7F7B /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = background.jpg; path = MobiquityPhotoGallery/background.jpg; sourceTree = "<group>"; };
+		6954A4391A127C19000D7F7B /* PhotoScreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoScreen.h; sourceTree = "<group>"; };
+		6954A43A1A127C19000D7F7B /* PhotoScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoScreen.m; sourceTree = "<group>"; };
+		6954A4E91A12BCBE000D7F7B /* testNotesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = testNotesViewController.h; sourceTree = "<group>"; };
+		6954A4EA1A12BCBE000D7F7B /* testNotesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = testNotesViewController.m; sourceTree = "<group>"; };
+		6954A4ED1A12CC14000D7F7B /* testHighlightTextStorage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = testHighlightTextStorage.h; sourceTree = "<group>"; };
+		6954A4EE1A12CC14000D7F7B /* testHighlightTextStorage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = testHighlightTextStorage.m; sourceTree = "<group>"; };
+		6954A4F01A12CE1C000D7F7B /* Note.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Note.h; sourceTree = "<group>"; };
+		6954A4F11A12CE1C000D7F7B /* Note.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Note.m; sourceTree = "<group>"; };
+		6954A50C1A132610000D7F7B /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		6954A50E1A1339BE000D7F7B /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		6954A5101A1346DE000D7F7B /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,9 +114,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6954A50F1A1339BE000D7F7B /* CoreLocation.framework in Frameworks */,
+				6954A50D1A132610000D7F7B /* AssetsLibrary.framework in Frameworks */,
+				6954A4191A115903000D7F7B /* QuartzCore.framework in Frameworks */,
+				6954A4171A1158FC000D7F7B /* Security.framework in Frameworks */,
 				6954A3171A11586D000D7F7B /* CoreGraphics.framework in Frameworks */,
 				6954A31B1A11586D000D7F7B /* CoreData.framework in Frameworks */,
 				6954A3191A11586D000D7F7B /* UIKit.framework in Frameworks */,
+				6954A4151A1158CC000D7F7B /* DropboxSDK.framework in Frameworks */,
 				6954A3151A11586D000D7F7B /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -92,6 +143,8 @@
 		6954A3081A11586D000D7F7B = {
 			isa = PBXGroup;
 			children = (
+				6954A5121A13474F000D7F7B /* Images */,
+				6954A4311A11E1F4000D7F7B /* Categories */,
 				6954A31C1A11586D000D7F7B /* MobiquityPhotoGallery */,
 				6954A3421A11586D000D7F7B /* MobiquityPhotoGalleryTests */,
 				6954A3131A11586D000D7F7B /* Frameworks */,
@@ -111,6 +164,11 @@
 		6954A3131A11586D000D7F7B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				6954A50E1A1339BE000D7F7B /* CoreLocation.framework */,
+				6954A50C1A132610000D7F7B /* AssetsLibrary.framework */,
+				6954A4181A115903000D7F7B /* QuartzCore.framework */,
+				6954A4161A1158FC000D7F7B /* Security.framework */,
+				6954A4141A1158CC000D7F7B /* DropboxSDK.framework */,
 				6954A3141A11586D000D7F7B /* Foundation.framework */,
 				6954A3161A11586D000D7F7B /* CoreGraphics.framework */,
 				6954A3181A11586D000D7F7B /* UIKit.framework */,
@@ -123,13 +181,9 @@
 		6954A31C1A11586D000D7F7B /* MobiquityPhotoGallery */ = {
 			isa = PBXGroup;
 			children = (
-				6954A3251A11586D000D7F7B /* testAppDelegate.h */,
-				6954A3261A11586D000D7F7B /* testAppDelegate.m */,
-				6954A3281A11586D000D7F7B /* Main.storyboard */,
-				6954A32E1A11586D000D7F7B /* testMasterViewController.h */,
-				6954A32F1A11586D000D7F7B /* testMasterViewController.m */,
-				6954A3311A11586D000D7F7B /* testDetailViewController.h */,
-				6954A3321A11586D000D7F7B /* testDetailViewController.m */,
+				6954A5151A1347A8000D7F7B /* APIs */,
+				6954A5141A13477F000D7F7B /* Controllers */,
+				6954A5131A134770000D7F7B /* View */,
 				6954A3341A11586D000D7F7B /* Images.xcassets */,
 				6954A32B1A11586D000D7F7B /* MobiquityPhotoGallery.xcdatamodeld */,
 				6954A31D1A11586D000D7F7B /* Supporting Files */,
@@ -164,6 +218,71 @@
 				6954A3451A11586D000D7F7B /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6954A4311A11E1F4000D7F7B /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				6954A4251A11E1EE000D7F7B /* UIImage+Alpha.h */,
+				6954A4261A11E1EE000D7F7B /* UIImage+Alpha.m */,
+				6954A4271A11E1EE000D7F7B /* UIImage+Resize.h */,
+				6954A4281A11E1EE000D7F7B /* UIImage+Resize.m */,
+				6954A4291A11E1EE000D7F7B /* UIImage+RoundedCorner.h */,
+				6954A42A1A11E1EE000D7F7B /* UIImage+RoundedCorner.m */,
+				6954A42B1A11E1EE000D7F7B /* UIAlertView+error.h */,
+				6954A42C1A11E1EE000D7F7B /* UIAlertView+error.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		6954A5121A13474F000D7F7B /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				6954A4201A1177AA000D7F7B /* IMG_2410.JPG */,
+				6954A4371A12665F000D7F7B /* background.jpg */,
+				6954A4351A1265BE000D7F7B /* Background-Pics-50.jpg */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		6954A5131A134770000D7F7B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6954A5101A1346DE000D7F7B /* Main.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		6954A5141A13477F000D7F7B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				6954A4391A127C19000D7F7B /* PhotoScreen.h */,
+				6954A43A1A127C19000D7F7B /* PhotoScreen.m */,
+				6954A3251A11586D000D7F7B /* testAppDelegate.h */,
+				6954A3261A11586D000D7F7B /* testAppDelegate.m */,
+				6954A4E91A12BCBE000D7F7B /* testNotesViewController.h */,
+				6954A4EA1A12BCBE000D7F7B /* testNotesViewController.m */,
+				6954A4ED1A12CC14000D7F7B /* testHighlightTextStorage.h */,
+				6954A4EE1A12CC14000D7F7B /* testHighlightTextStorage.m */,
+				6954A41A1A115B35000D7F7B /* testLoginViewController.h */,
+				6954A41B1A115B35000D7F7B /* testLoginViewController.m */,
+				6954A32E1A11586D000D7F7B /* testMasterViewController.h */,
+				6954A32F1A11586D000D7F7B /* testMasterViewController.m */,
+				6954A3311A11586D000D7F7B /* testDetailViewController.h */,
+				6954A3321A11586D000D7F7B /* testDetailViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		6954A5151A1347A8000D7F7B /* APIs */ = {
+			isa = PBXGroup;
+			children = (
+				6954A41D1A116A90000D7F7B /* testCustomPhotoListCell.h */,
+				6954A41E1A116A90000D7F7B /* testCustomPhotoListCell.m */,
+				6954A4F01A12CE1C000D7F7B /* Note.h */,
+				6954A4F11A12CE1C000D7F7B /* Note.m */,
+			);
+			name = APIs;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -245,7 +364,10 @@
 			files = (
 				6954A3351A11586D000D7F7B /* Images.xcassets in Resources */,
 				6954A3211A11586D000D7F7B /* InfoPlist.strings in Resources */,
-				6954A32A1A11586D000D7F7B /* Main.storyboard in Resources */,
+				6954A4361A1265BE000D7F7B /* Background-Pics-50.jpg in Resources */,
+				6954A5111A1346DE000D7F7B /* Main.storyboard in Resources */,
+				6954A4381A12665F000D7F7B /* background.jpg in Resources */,
+				6954A4211A1177AA000D7F7B /* IMG_2410.JPG in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,9 +388,19 @@
 			files = (
 				6954A3301A11586D000D7F7B /* testMasterViewController.m in Sources */,
 				6954A3331A11586D000D7F7B /* testDetailViewController.m in Sources */,
+				6954A4EF1A12CC14000D7F7B /* testHighlightTextStorage.m in Sources */,
+				6954A42D1A11E1EE000D7F7B /* UIImage+Alpha.m in Sources */,
+				6954A41C1A115B35000D7F7B /* testLoginViewController.m in Sources */,
+				6954A43B1A127C19000D7F7B /* PhotoScreen.m in Sources */,
+				6954A4301A11E1EE000D7F7B /* UIAlertView+error.m in Sources */,
+				6954A4F21A12CE1C000D7F7B /* Note.m in Sources */,
 				6954A32D1A11586D000D7F7B /* MobiquityPhotoGallery.xcdatamodeld in Sources */,
+				6954A4EB1A12BCBE000D7F7B /* testNotesViewController.m in Sources */,
+				6954A42F1A11E1EE000D7F7B /* UIImage+RoundedCorner.m in Sources */,
+				6954A41F1A116A90000D7F7B /* testCustomPhotoListCell.m in Sources */,
 				6954A3271A11586D000D7F7B /* testAppDelegate.m in Sources */,
 				6954A3231A11586D000D7F7B /* main.m in Sources */,
+				6954A42E1A11E1EE000D7F7B /* UIImage+Resize.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +429,6 @@
 				6954A3201A11586D000D7F7B /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		6954A3281A11586D000D7F7B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6954A3291A11586D000D7F7B /* Base */,
-			);
-			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 		6954A3451A11586D000D7F7B /* InfoPlist.strings */ = {
@@ -393,9 +517,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/dropbox-ios-sdk-1.3.13",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MobiquityPhotoGallery/MobiquityPhotoGallery-Prefix.pch";
 				INFOPLIST_FILE = "MobiquityPhotoGallery/MobiquityPhotoGallery-Info.plist";
+				LIBRARY_SEARCH_PATHS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -406,9 +536,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/dropbox-ios-sdk-1.3.13",
+					"$(PROJECT_DIR)",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MobiquityPhotoGallery/MobiquityPhotoGallery-Prefix.pch";
 				INFOPLIST_FILE = "MobiquityPhotoGallery/MobiquityPhotoGallery-Info.plist";
+				LIBRARY_SEARCH_PATHS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};

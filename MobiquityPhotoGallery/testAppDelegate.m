@@ -2,13 +2,13 @@
 //  testAppDelegate.m
 //  MobiquityPhotoGallery
 //
-//  Created by Kikani, Vibhu on 11/10/14.
+//  Created by Naik, Dhara on 11/10/14.
 //  Copyright (c) 2014 Mobiquity. All rights reserved.
 //
 
 #import "testAppDelegate.h"
-
 #import "testMasterViewController.h"
+
 
 @implementation testAppDelegate
 
@@ -18,13 +18,51 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    
+    
+    DBSession *dbSession = [[DBSession alloc]
+                            initWithAppKey:@"olwfq3hje8nuu3p"
+                            appSecret:@"cpoefa42vcbs6q0"
+                            root:kDBRootAppFolder]; // either kDBRootAppFolder or kDBRootDropbox
+    [DBSession setSharedSession:dbSession];
+    
     // Override point for customization after application launch.
     UINavigationController *navigationController = (UINavigationController *)self.window.rootViewController;
-    testMasterViewController *controller = (testMasterViewController *)navigationController.topViewController;
+    controller = (testLoginViewController *)navigationController.topViewController;
+    
+    //testMasterViewController *controller = (testMasterViewController *)navigationController.topViewController;
+    
     controller.managedObjectContext = self.managedObjectContext;
+    
+    
+    // style the navigation bar
+    UIColor* navColor = [UIColor colorWithRed:0.175f green:0.458f blue:0.831f alpha:1.0f];
+    [[UINavigationBar appearance] setBarTintColor:navColor];
+    [[UINavigationBar appearance] setTintColor:[UIColor whiteColor]];
+    [[UINavigationBar appearance] setTitleTextAttributes:@{NSForegroundColorAttributeName: [UIColor whiteColor]}];
+    
+    // make the status bar white
+    [UIApplication sharedApplication].statusBarStyle = UIStatusBarStyleLightContent;
     return YES;
 }
-							
+
+
+
+- (BOOL)application:(UIApplication *)app openURL:(NSURL *)url
+  sourceApplication:(NSString *)source annotation:(id)annotation {    
+    if ([[DBSession sharedSession] handleOpenURL:url]) {
+        if ([[DBSession sharedSession] isLinked]) {
+            NSLog(@"App linked successfully!");
+        }
+        return YES;
+    }
+    
+    NSLog(@"APP could not Link to the provided URL");
+    return NO;
+}
+
+
+
 - (void)applicationWillResignActive:(UIApplication *)application
 {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
@@ -146,6 +184,21 @@
 - (NSURL *)applicationDocumentsDirectory
 {
     return [[[NSFileManager defaultManager] URLsForDirectory:NSDocumentDirectory inDomains:NSUserDomainMask] lastObject];
+}
+
+
+- (void)sessionDidReceiveAuthorizationFailure:(DBSession*)session userId:(NSString *)userId {
+	
+    relinkUserId = userId;
+	[[[UIAlertView alloc]
+	   initWithTitle:@"Dropbox Session Ended" message:@"Do you want to relink?" delegate:self
+	   cancelButtonTitle:@"Cancel" otherButtonTitles:@"Relink", nil] show];
+}
+
+- (void)alertView:(UIAlertView *)alertView clickedButtonAtIndex:(NSInteger)index {
+	if (index != alertView.cancelButtonIndex) {
+		[[DBSession sharedSession] linkUserId:relinkUserId fromController:controller];
+	}
 }
 
 @end

@@ -1,5 +1,5 @@
 //
-//  testMasterViewController.h
+//  testLoginViewController.h
 //  MobiquityPhotoGallery
 //
 //  Created by Naik, Dhara on 11/10/14.
@@ -8,17 +8,16 @@
 
 #import <UIKit/UIKit.h>
 
-#import <CoreData/CoreData.h>
+@interface testLoginViewController : UIViewController <NSFetchedResultsControllerDelegate>
 
-@class DBRestClient;
-
-
-@interface testMasterViewController : UITableViewController <NSFetchedResultsControllerDelegate,DBRestClientDelegate,UITableViewDelegate>
-
-@property (strong, nonatomic) IBOutlet UIBarButtonItem *brbPhotos;
 @property (strong, nonatomic) NSFetchedResultsController *fetchedResultsController;
 @property (strong, nonatomic) NSManagedObjectContext *managedObjectContext;
 
+
+@property (strong, nonatomic) IBOutlet UIButton *btnLogin;
+
+- (IBAction)loginToDropBox:(UIButton *)sender;
+@property (strong, nonatomic) IBOutlet UIBarButtonItem *btnPhotos;
 - (IBAction)showPhotos:(UIBarButtonItem *)sender;
 
 @end
