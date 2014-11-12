@@ -9,6 +9,10 @@
 
 // Private helper methods
 @interface UIImage ()
+
+
+// Comment
+
 - (UIImage *)resizedImage:(CGSize)newSize
                 transform:(CGAffineTransform)transform
            drawTransposed:(BOOL)transpose
